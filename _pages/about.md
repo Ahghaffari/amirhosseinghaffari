@@ -9,7 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <div style="text-align:center; width:100%;">Amirhossein Ghaffari</div>
+    <div style="text-align:center; width:100%;">
+      Amirhossein Ghaffari<br>
+      <a href="mailto:amirhossein.ghaffari@oulu.fi" style="font-size:0.85rem;">amirhossein.ghaffari@oulu.fi</a><br>
+      <a href="mailto:ah.ghaffari94@gmail.com" style="font-size:0.85rem;">ah.ghaffari94@gmail.com</a>
+    </div>
 
 selected_papers: true
 social: true

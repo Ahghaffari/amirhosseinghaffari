@@ -83,6 +83,12 @@ layout: default
                   <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
                 </tr>
               {% endif %}
+              {% if cv.secondary_email %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Email (alt.)</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.secondary_email }}</td>
+                </tr>
+              {% endif %}
               {% if cv.phone %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Phone</b></td>
