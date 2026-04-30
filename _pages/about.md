@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p style="text-align:center;">Amirhossein Ghaffari</p>
+    <div style="text-align:center; width:100%;">Amirhossein Ghaffari</div>
 
 selected_papers: true
 social: true
