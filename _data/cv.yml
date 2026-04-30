@@ -159,6 +159,12 @@ cv:
         title: Top 0.5% — Iranian Mathematics and Physics University Entrance Exam
         summary: Ranked within the top 0.5% among more than 220,000 participants.
 
+    Service:
+      - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *EuroSys 2026 Artifact Evaluation Committee*. <span class='badge bg-secondary'>2026</span>"
+      - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *International Conference on Software, Telecommunications and Computer Networks (SoftCOM) 2026*. <span class='badge bg-secondary'>2026</span>"
+      - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *International Conference on Web Information Systems Engineering (WISE) 2025*. <span class='badge bg-secondary'>2025</span>"
+      - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *IEEE International Conference on Big Data (IEEE BigData) 2024*. <span class='badge bg-secondary'>2024</span>"
+
     Conferences, Workshops and Summer Schools:
       - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM CIKM 2025**, Seoul, South Korea &mdash; student volunteer and first-author presenter of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
       - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE ICNSC 2025**, Oulu, Finland &mdash; author of a paper. <span class='badge bg-secondary'>Fall 2025</span>"

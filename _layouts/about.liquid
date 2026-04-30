@@ -49,7 +49,7 @@ layout: default
       {% assign news_total = site.news | size %}
       {% if page.announcements.limit and news_total > page.announcements.limit %}
         <p class="text-end mt-2 mb-0">
-          <a href="{{ '/news/' | relative_url }}">Read more news &rarr;</a>
+          <a href="{{ '/news/' | relative_url }}">See all {{ news_total }} news &rarr;</a>
         </p>
       {% endif %}
     {% endif %}

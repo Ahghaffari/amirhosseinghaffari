@@ -129,7 +129,7 @@ layout: default
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
+            <h3 class="card-title font-weight-medium"><i class="fa-solid fa-briefcase text-secondary me-2"></i>Experience</h3>
             <div>
               {% assign entries = combined_experience %}
               {% include cv/experience.liquid %}
@@ -149,7 +149,26 @@ layout: default
 
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            {% assign section_icon = '' %}
+            {% case section_title %}
+              {% when 'Education' %}{% assign section_icon = 'fa-solid fa-graduation-cap text-info' %}
+              {% when 'Awards' %}{% assign section_icon = 'fa-solid fa-trophy text-warning' %}
+              {% when 'Honors and Awards' %}{% assign section_icon = 'fa-solid fa-trophy text-warning' %}
+              {% when 'Teaching' %}{% assign section_icon = 'fa-solid fa-chalkboard-user text-success' %}
+              {% when 'Teaching Experience' %}{% assign section_icon = 'fa-solid fa-chalkboard-user text-success' %}
+              {% when 'Teaching Assistantships' %}{% assign section_icon = 'fa-solid fa-chalkboard-user text-success' %}
+              {% when 'Languages' %}{% assign section_icon = 'fa-solid fa-language text-primary' %}
+              {% when 'Academic Interests' %}{% assign section_icon = 'fa-solid fa-lightbulb text-warning' %}
+              {% when 'Interests' %}{% assign section_icon = 'fa-solid fa-lightbulb text-warning' %}
+              {% when 'Conferences, Workshops and Summer Schools' %}{% assign section_icon = 'fa-solid fa-people-group text-info' %}
+              {% when 'Service' %}{% assign section_icon = 'fa-solid fa-handshake-angle text-success' %}
+              {% when 'Publications' %}{% assign section_icon = 'fa-solid fa-book text-info' %}
+              {% when 'Projects' %}{% assign section_icon = 'fa-solid fa-diagram-project text-info' %}
+              {% when 'Skills' %}{% assign section_icon = 'fa-solid fa-screwdriver-wrench text-success' %}
+            {% endcase %}
+            <h3 class="card-title font-weight-medium">
+              {% if section_icon != '' %}<i class="{{ section_icon }} me-2"></i>{% endif %}{{ section_title }}
+            </h3>
             <div>
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
