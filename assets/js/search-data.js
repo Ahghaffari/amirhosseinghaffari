@@ -69,7 +69,7 @@ ninja.data = [{
           section: "News",},{id: "news-presenting-our-paper-stm-graph-a-python-framework-for-spatio-temporal-mapping-and-graph-neural-network-predictions-at-acm-cikm-2025-in-seoul-south-korea-and-serving-as-a-student-volunteer",
           title: 'Presenting our paper STM-Graph: A Python Framework for Spatio-Temporal Mapping and Graph Neural...',
           description: "",
-          section: "News",},{id: "news-will-present-our-paper-graph-conditioned-mixture-of-graph-neural-network-experts-for-traffic-forecasting-at-the-27th-ieee-international-conference-on-mobile-data-management-mdm-2026-in-athens-greece",
+          section: "News",},{id: "news-will-present-our-paper-graph-conditioned-mixture-of-graph-neural-network-experts-for-traffic-forecasting-at-the-27th-ieee-international-conference-on-mobile-data-management-mdm-2026-athens-greece-on-29-june-2-july-2026",
           title: 'Will present our paper Graph-Conditioned Mixture of Graph Neural Network Experts for Traffic...',
           description: "",
           section: "News",},{
