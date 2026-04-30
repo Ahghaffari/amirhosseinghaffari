@@ -78,14 +78,14 @@ cv:
         highlights:
           - Designed and implemented deep-learning and machine-learning algorithms for an air-pollution prediction system.
 
-    Teaching:
       - company: University of Oulu — Faculty of ITEE
         position: Teaching Assistant — Big Data Processing and Applications (M.Sc.)
         location: Oulu, Finland
         start_date: 2024
         end_date: 2026
         highlights:
-          - Instructor: Dr. Ekaterina Gilman. Spring 2024, 2025, 2026.
+          - Instructor: Dr. Ekaterina Gilman.
+          - Spring 2024, 2025, 2026.
 
       - company: University of Oulu — Faculty of ITEE
         position: Teaching Assistant — Network Analysis and Graph Machine Learning (M.Sc.)
@@ -125,47 +125,66 @@ cv:
         start_date: 2012
         end_date: 2015
 
-    Awards and Honors:
-      - year: 2025
-        summary: ACM CIKM Student Travel Grant — 34th ACM International Conference on Information and Knowledge Management, Seoul, Republic of Korea.
-      - year: 2024
-        summary: Tauno Tönning Foundation personal research grant.
-      - year: 2024
-        summary: IEEE Student Travel Grant — IEEE PerCom 2024, Biarritz, France.
-      - year: 2023
-        summary: Four-year fully funded doctoral researcher position through competitive selection at the University of Oulu.
-      - year: 2019
-        summary: Iran's National Elites Foundation Award.
-      - year:
-        summary: Recipient of national graduate and undergraduate full scholarships.
-      - year:
-        summary: Ranked within the top 0.5% (>31,000 participants) in the Iranian Electrical Engineering Graduate University entrance exam.
-      - year:
-        summary: Ranked within the top 0.5% (>220,000 participants) in the Iranian Mathematics and Physics University entrance exam.
+    Honors and Awards:
+      - date: 2025
+        title: ACM CIKM Student Travel Grant
+        awarder: ACM
+        summary: 34th ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Republic of Korea.
+
+      - date: 2024
+        title: Tauno Tönning Foundation Personal Research Grant
+        awarder: Tauno Tönning Foundation
+
+      - date: 2024
+        title: IEEE Student Travel Grant
+        awarder: IEEE
+        summary: IEEE International Conference on Pervasive Computing and Communications (PerCom), Biarritz, France.
+
+      - date: 2023
+        title: Four-year Fully Funded Doctoral Researcher Position
+        awarder: University of Oulu
+        summary: Awarded through competitive selection.
+
+      - date: 2019
+        title: Iran's National Elites Foundation Award
+        awarder: Iran's National Elites Foundation
+
+      - title: National Graduate and Undergraduate Full Scholarships
+        awarder: Iran
+
+      - title: Top 0.5% — Iranian Electrical Engineering Graduate University Entrance Exam
+        summary: Ranked within the top 0.5% among more than 31,000 participants.
+
+      - title: Top 0.5% — Iranian Mathematics and Physics University Entrance Exam
+        summary: Ranked within the top 0.5% among more than 220,000 participants.
 
     Conferences, Workshops and Summer Schools:
-      - year: 2025
-        summary: ACM CIKM 2025, Seoul, South Korea — student volunteer and first-author presenter.
-      - year: 2025
-        summary: IEEE ICNSC 2025, Oulu, Finland — author of a paper.
-      - year: 2024
-        summary: NVIDIA Workshop — Fundamentals of Accelerated Computing with CUDA Python, University of Oulu.
-      - year: 2024
-        summary: ACM IoT 2024, Oulu, Finland — student volunteer.
-      - year: 2024
-        summary: ACM KDD 2024, Barcelona, Spain — full participation with poster presentation.
-      - year: 2024
-        summary: 12th UBISS Summer School, University of Oulu — liaison student in the "Care-full! More-than-human Urban Futures" workshop.
-      - year: 2024
-        summary: 6G Symposium, Levi, Finland.
-      - year: 2024
-        summary: IEEE PerCom 2024, Biarritz, France — full participation with poster presentation.
-      - year: 2023
-        summary: 11th UBISS Summer School, University of Oulu — "Smart IoT Wireless Connectivity in 5G and Beyond" workshop.
+      - bullet: "**ACM CIKM 2025**, Seoul, South Korea — student volunteer and first-author presenter of a paper. *(Fall 2025)*"
+      - bullet: "**IEEE ICNSC 2025**, Oulu, Finland — author of a paper. *(Fall 2025)*"
+      - bullet: "**NVIDIA Workshop**, University of Oulu — Fundamentals of Accelerated Computing with CUDA Python. *(Fall 2024)*"
+      - bullet: "**ACM IoT 2024**, Oulu, Finland — student volunteer with the organizing committee. *(Fall 2024)*"
+      - bullet: "**ACM KDD 2024**, Barcelona, Spain — full participation with a poster presentation. *(Fall 2024)*"
+      - bullet: "**12th UBISS Summer School**, University of Oulu — liaison student in the *Care-full! More-than-human Urban Futures* workshop. *(Summer 2024)*"
+      - bullet: "**6G Symposium**, Levi, Finland — full participation. *(Spring 2024)*"
+      - bullet: "**IEEE PerCom 2024**, Biarritz, France — full participation with a poster presentation. *(Spring 2024)*"
+      - bullet: "**11th UBISS Summer School**, University of Oulu — *Smart IoT Wireless Connectivity in 5G and Beyond* workshop. *(Summer 2023)*"
+      - bullet: "**IEC2-2019 Sharif**, Sharif University of Technology, Tehran — KNIME, Tableau, and Pandas workshops. *(Summer 2019)*"
+      - bullet: "**Deep Learning Summer School**, University of Tehran. *(Summer 2018)*"
+      - bullet: "**TensorFlow Workshop**, Sharif University of Technology, Tehran. *(Summer 2018)*"
 
-    Research Interests:
-      - title: Topics
-        items:
-          - Urban Well-being
-          - Machine Learning
-          - Graph Neural Networks
+    Academic Interests:
+      - name: Urban Well-being
+        keywords:
+          - smart cities
+          - multi-source urban data
+          - human-centric analysis
+      - name: Machine Learning
+        keywords:
+          - deep learning
+          - spatio-temporal modeling
+          - representation learning
+      - name: Graph Neural Networks
+        keywords:
+          - traffic forecasting
+          - heterogeneous graphs
+          - federated graph learning
