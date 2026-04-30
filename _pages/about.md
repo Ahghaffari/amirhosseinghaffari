@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>University of Oulu, Finland</p>
+    <p>Amirhossein Ghaffari</p>
 
 selected_papers: true
 social: true
