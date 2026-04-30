@@ -7,28 +7,28 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/amirhosseinghaffari/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "Publications in reverse chronological order. Author names with my name in bold.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/amirhosseinghaffari/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-news",
           title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/amirhosseinghaffari/news/";
+            window.location.href = "/news/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae of Amirhossein Ghaffari. Click the button above to download the latest PDF.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/amirhosseinghaffari/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "news-awarded-a-four-year-fully-funded-doctoral-researcher-position-at-the-university-of-oulu-through-competitive-selection",
           title: 'Awarded a four-year fully funded Doctoral Researcher position at the University of Oulu...',
@@ -77,7 +77,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/amirhosseinghaffari/assets/pdf/Amirhossein_Ghaffari_CV.pdf", "_blank");
+          window.open("/assets/pdf/Amirhossein_Ghaffari_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ahghaffari.github.io/amirhosseinghaffari/sitemap.xml
+Sitemap: https://amirhossein-ghaffari.github.io/sitemap.xml
