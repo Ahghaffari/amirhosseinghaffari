@@ -128,7 +128,6 @@ cv:
     Honors and Awards:
       - date: 2025
         title: ACM CIKM Student Travel Grant
-        awarder: ACM
         summary: 34th ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Republic of Korea.
 
       - date: 2024
@@ -137,7 +136,6 @@ cv:
 
       - date: 2024
         title: IEEE Student Travel Grant
-        awarder: IEEE
         summary: IEEE International Conference on Pervasive Computing and Communications (PerCom), Biarritz, France.
 
       - date: 2023
@@ -162,18 +160,49 @@ cv:
         summary: Ranked within the top 0.5% among more than 220,000 participants.
 
     Conferences, Workshops and Summer Schools:
-      - bullet: "<i class='fa-solid fa-microphone-lines text-primary me-2'></i> **ACM CIKM 2025**, Seoul, South Korea &mdash; student volunteer and first-author presenter of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
-      - bullet: "<i class='fa-solid fa-microphone-lines text-primary me-2'></i> **IEEE ICNSC 2025**, Oulu, Finland &mdash; author of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM CIKM 2025**, Seoul, South Korea &mdash; student volunteer and first-author presenter of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE ICNSC 2025**, Oulu, Finland &mdash; author of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **NVIDIA Workshop**, University of Oulu &mdash; Fundamentals of Accelerated Computing with CUDA Python. <span class='badge bg-secondary'>Fall 2024</span>"
       - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM IoT 2024**, Oulu, Finland &mdash; student volunteer with the organizing committee. <span class='badge bg-secondary'>Fall 2024</span>"
-      - bullet: "<i class='fa-solid fa-image-portrait text-warning me-2'></i> **ACM KDD 2024**, Barcelona, Spain &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Fall 2024</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM KDD 2024**, Barcelona, Spain &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Fall 2024</span>"
       - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **12th UBISS Summer School**, University of Oulu &mdash; liaison student in the *Care-full! More-than-human Urban Futures* workshop. <span class='badge bg-secondary'>Summer 2024</span>"
       - bullet: "<i class='fa-solid fa-satellite-dish text-success me-2'></i> **6G Symposium**, Levi, Finland &mdash; full participation. <span class='badge bg-secondary'>Spring 2024</span>"
-      - bullet: "<i class='fa-solid fa-image-portrait text-warning me-2'></i> **IEEE PerCom 2024**, Biarritz, France &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Spring 2024</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE PerCom 2024**, Biarritz, France &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Spring 2024</span>"
       - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **11th UBISS Summer School**, University of Oulu &mdash; *Smart IoT Wireless Connectivity in 5G and Beyond* workshop. <span class='badge bg-secondary'>Summer 2023</span>"
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **IEC2-2019 Sharif**, Sharif University of Technology, Tehran &mdash; KNIME, Tableau, and Pandas workshops. <span class='badge bg-secondary'>Summer 2019</span>"
       - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **Deep Learning Summer School**, University of Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **TensorFlow Workshop**, Sharif University of Technology, Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
+
+    Academic Interests:
+      - name: Urban Well-being
+        icon: fa-solid fa-city
+        keywords:
+          - smart cities
+          - multi-source urban data
+          - human-centric analysis
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords:
+          - deep learning
+          - spatio-temporal modeling
+          - representation learning
+      - name: Graph Neural Networks
+        icon: fa-solid fa-diagram-project
+        keywords:
+          - traffic forecasting
+          - heterogeneous graphs
+          - knowledge graph
+      - name: Federated Learning
+        icon: fa-solid fa-network-wired
+        keywords:
+          - distributed training
+          - privacy-preserving AI
+      - name: Agentic AI Systems
+        icon: fa-solid fa-robot
+        keywords:
+          - LLM-based agents
+          - tool use
+          - autonomous decision-making
 
     Languages:
       - name: Persian
@@ -184,29 +213,3 @@ cv:
         summary: Beginner
       - name: Finnish
         summary: Beginner
-
-    Academic Interests:
-      - name: Urban Well-being
-        keywords:
-          - smart cities
-          - multi-source urban data
-          - human-centric analysis
-      - name: Machine Learning
-        keywords:
-          - deep learning
-          - spatio-temporal modeling
-          - representation learning
-      - name: Graph Neural Networks
-        keywords:
-          - traffic forecasting
-          - heterogeneous graphs
-          - knowledge graph
-      - name: Federated Learning
-        keywords:
-          - distributed training
-          - privacy-preserving AI
-      - name: Agentic AI Systems
-        keywords:
-          - LLM-based agents
-          - tool use
-          - autonomous decision-making
