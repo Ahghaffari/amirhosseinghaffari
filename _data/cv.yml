@@ -1,0 +1,171 @@
+cv:
+  name: Amirhossein Ghaffari
+  label: Doctoral Researcher
+  email: amirhossein.ghaffari@oulu.fi
+  phone: "+358 41 5823802"
+  location: Oulu, Finland
+  image: ""
+  summary: >
+    Doctoral researcher at the University of Oulu working on urban well-being,
+    machine learning, graph neural networks, multi-source urban data, and
+    data-driven analysis of smart-city systems. Background in computer vision
+    and deep learning applied to large-scale industrial systems.
+
+  social_networks:
+    - network: LinkedIn
+      username: amirhosseinghaffari
+
+  sections:
+    Education:
+      - institution: University of Oulu
+        location: Oulu, Finland
+        url: https://www.oulu.fi/
+        area: Computer Science and Engineering
+        studyType: Doctor of Philosophy (PhD)
+        start_date: 2023
+        end_date: Present
+        score: "GPA 4.4 / 5"
+        highlights:
+          - Research on urban well-being, machine learning, graph neural networks, and multi-source urban data.
+
+      - institution: Sharif University of Technology
+        location: Tehran, Iran
+        url: http://www.en.sharif.edu/
+        area: Electrical Engineering — Digital Electronic Systems
+        studyType: M.Sc.
+        start_date: 2017
+        end_date: 2019
+        score: "GPA 18.20 / 20"
+
+      - institution: Amirkabir University of Technology (Tehran Polytechnic)
+        location: Tehran, Iran
+        url: https://www.aut.ac.ir/en
+        area: Electrical Engineering
+        studyType: B.Sc.
+        start_date: 2012
+        end_date: 2017
+        score: "GPA 16.24 / 20"
+
+    Experience:
+      - company: University of Oulu
+        position: Doctoral Researcher
+        location: Oulu, Finland
+        start_date: 2023
+        end_date: Present
+        summary: >
+          Conducting doctoral research in urban well-being, machine learning,
+          graph neural networks, multi-source urban data, and data-driven
+          analysis of smart-city systems.
+
+      - company: Fard Iran Co.
+        position: Computer Vision and Deep Learning Researcher
+        location: Tehran, Iran
+        start_date: 2019
+        end_date: 2023
+        highlights:
+          - Designed and implemented an Automatic Number Plate Recognition (ANPR) algorithm.
+          - Built motion- and human-detection applications for surveillance systems.
+          - Developed an algorithm to automatically optimize camera parameters (gain and shutter speed) to ensure high-quality license-plate capture day and night.
+          - Implemented a neural-network-based signal-processing tool to measure vehicle weights in a Weigh-In-Motion (WIM) system.
+          - Designed a driver-assistance tool that detects abnormal driving from deep learning, GPS sensor data, and ECU information.
+          - Contributed to large-scale deployment of 70+ WIM sites across Iran (on-site installation, debugging, optimization, support).
+
+      - company: Institute of Water and Energy, Sharif University of Technology
+        position: Deep Learning Researcher
+        location: Tehran, Iran
+        start_date: 2020
+        end_date: 2022
+        highlights:
+          - Designed and implemented deep-learning and machine-learning algorithms for an air-pollution prediction system.
+
+    Teaching:
+      - company: University of Oulu — Faculty of ITEE
+        position: Teaching Assistant — Big Data Processing and Applications (M.Sc.)
+        location: Oulu, Finland
+        start_date: 2024
+        end_date: 2026
+        highlights:
+          - Instructor: Dr. Ekaterina Gilman. Spring 2024, 2025, 2026.
+
+      - company: University of Oulu — Faculty of ITEE
+        position: Teaching Assistant — Network Analysis and Graph Machine Learning (M.Sc.)
+        location: Oulu, Finland
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Instructor: Prof. Joydeep Chandra.
+
+      - company: Sharif University of Technology — Electrical Engineering Dept.
+        position: Teaching Assistant — Computer Vision (M.Sc.)
+        location: Tehran, Iran
+        start_date: 2019
+        end_date: 2019
+        highlights:
+          - Instructor: Dr. Hoda Mohammadzadeh.
+
+      - company: Sharif University of Technology — International Campus
+        position: Teaching Assistant — Computer Architecture (B.Sc.)
+        location: Tehran, Iran
+        start_date: 2018
+        end_date: 2018
+        highlights:
+          - Instructor: Dr. Hamed Farbeh.
+
+      - company: Sharif University of Technology — Electrical Engineering Dept.
+        position: Teaching Assistant — Advanced Computer Architecture (M.Sc.)
+        location: Tehran, Iran
+        start_date: 2018
+        end_date: 2018
+        highlights:
+          - Instructor: Dr. Mohammadreza Movaheddin.
+
+      - company: Roshd1 Educational Complex
+        position: Mathematics and Physics Teacher
+        location: Tehran, Iran
+        start_date: 2012
+        end_date: 2015
+
+    Awards and Honors:
+      - year: 2025
+        summary: ACM CIKM Student Travel Grant — 34th ACM International Conference on Information and Knowledge Management, Seoul, Republic of Korea.
+      - year: 2024
+        summary: Tauno Tönning Foundation personal research grant.
+      - year: 2024
+        summary: IEEE Student Travel Grant — IEEE PerCom 2024, Biarritz, France.
+      - year: 2023
+        summary: Four-year fully funded doctoral researcher position through competitive selection at the University of Oulu.
+      - year: 2019
+        summary: Iran's National Elites Foundation Award.
+      - year:
+        summary: Recipient of national graduate and undergraduate full scholarships.
+      - year:
+        summary: Ranked within the top 0.5% (>31,000 participants) in the Iranian Electrical Engineering Graduate University entrance exam.
+      - year:
+        summary: Ranked within the top 0.5% (>220,000 participants) in the Iranian Mathematics and Physics University entrance exam.
+
+    Conferences, Workshops and Summer Schools:
+      - year: 2025
+        summary: ACM CIKM 2025, Seoul, South Korea — student volunteer and first-author presenter.
+      - year: 2025
+        summary: IEEE ICNSC 2025, Oulu, Finland — author of a paper.
+      - year: 2024
+        summary: NVIDIA Workshop — Fundamentals of Accelerated Computing with CUDA Python, University of Oulu.
+      - year: 2024
+        summary: ACM IoT 2024, Oulu, Finland — student volunteer.
+      - year: 2024
+        summary: ACM KDD 2024, Barcelona, Spain — full participation with poster presentation.
+      - year: 2024
+        summary: 12th UBISS Summer School, University of Oulu — liaison student in the "Care-full! More-than-human Urban Futures" workshop.
+      - year: 2024
+        summary: 6G Symposium, Levi, Finland.
+      - year: 2024
+        summary: IEEE PerCom 2024, Biarritz, France — full participation with poster presentation.
+      - year: 2023
+        summary: 11th UBISS Summer School, University of Oulu — "Smart IoT Wireless Connectivity in 5G and Beyond" workshop.
+
+    Research Interests:
+      - title: Topics
+        items:
+          - Urban Well-being
+          - Machine Learning
+          - Graph Neural Networks

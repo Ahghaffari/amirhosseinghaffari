@@ -1,0 +1,10 @@
+# Social and contact links displayed on the about page and elsewhere.
+# See https://github.com/george-gca/jekyll-socials for the list of supported networks.
+
+cv_pdf: /assets/pdf/Amirhossein_Ghaffari_CV.pdf
+email: amirhossein.ghaffari@oulu.fi
+linkedin_username: amirhosseinghaffari
+github_username: # add your GitHub username here
+scholar_userid:  # add your Google Scholar user ID here (the string after user= in the URL)
+orcid_id:        # add your ORCID iD here (e.g., 0000-0000-0000-0000)
+rss_icon: true
