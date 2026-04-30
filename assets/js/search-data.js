@@ -122,13 +122,6 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Amirhossein-Ghaffari/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/amirhosseinghaffari/feed.xml", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
