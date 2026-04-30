@@ -176,7 +176,7 @@ cv:
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **TensorFlow Workshop**, Sharif University of Technology, Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
 
     Academic Interests:
-      - name: Urban Well-being
+      - name: Urban Computing
         icon: fa-solid fa-city
         keywords:
           - smart cities
@@ -188,12 +188,14 @@ cv:
           - deep learning
           - spatio-temporal modeling
           - representation learning
+          - recommender systems
+          - natural language processing
       - name: Graph Neural Networks
         icon: fa-solid fa-diagram-project
         keywords:
           - traffic forecasting
           - heterogeneous graphs
-          - knowledge graph
+          - knowledge graphs
       - name: Federated Learning
         icon: fa-solid fa-network-wired
         keywords:
@@ -205,6 +207,67 @@ cv:
           - LLM-based agents
           - tool use
           - autonomous decision-making
+
+    Skills:
+      - name: Deep Learning & GNNs
+        icon: fa-solid fa-brain text-info me-2
+        keywords:
+          - PyTorch
+          - PyTorch Geometric
+          - DGL
+          - TensorFlow
+          - CUDA
+          - Hugging Face
+      - name: Agentic AI & LLMs
+        icon: fa-solid fa-robot text-warning me-2
+        keywords:
+          - LangGraph
+          - LangChain
+          - Google ADK
+          - OpenAI / Anthropic APIs
+          - RAG pipelines
+      - name: Big Data & Distributed Systems
+        icon: fa-solid fa-database text-success me-2
+        keywords:
+          - Apache Spark (PySpark)
+          - Hadoop
+          - Kafka
+          - Dask
+      - name: Databases & Knowledge Graphs
+        icon: fa-solid fa-server text-primary me-2
+        keywords:
+          - PostgreSQL
+          - Neo4j
+          - Cypher
+          - SPARQL / RDF
+          - MongoDB
+      - name: MLOps & Cloud Native
+        icon: fa-solid fa-cloud text-info me-2
+        keywords:
+          - Docker
+          - Kubernetes
+          - Prometheus
+          - Grafana
+          - MLflow
+          - Weights & Biases
+          - Git / GitHub Actions
+      - name: Programming Languages
+        icon: fa-solid fa-code text-secondary me-2
+        keywords:
+          - Python
+          - C / C++
+          - SQL
+          - Bash
+          - MATLAB
+      - name: Scientific Computing & Visualization
+        icon: fa-solid fa-chart-line text-warning me-2
+        keywords:
+          - NumPy
+          - Pandas
+          - scikit-learn
+          - Matplotlib
+          - Plotly
+          - GeoPandas
 
     Languages:
       - name: Persian
