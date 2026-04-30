@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our paper at **ACM CIKM 2025** in Seoul, South Korea, and served as a student volunteer.
+Presenting our paper **STM-Graph: A Python Framework for Spatio-Temporal Mapping and Graph Neural Network Predictions** at **ACM CIKM 2025** in Seoul, South Korea, and serving as a **student volunteer**.

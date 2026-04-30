@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2023-07-12 09:00:00-0000
+inline: true
+related_posts: false
+---
+
+Attending the **11th UBISS Summer School** — *Smart IoT Wireless Connectivity in 5G and Beyond* workshop, University of Oulu.
