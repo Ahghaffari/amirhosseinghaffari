@@ -84,8 +84,8 @@ cv:
         start_date: 2024
         end_date: 2026
         highlights:
-          - Instructor: Dr. Ekaterina Gilman.
-          - Spring 2024, 2025, 2026.
+          - "Instructor: Dr. Ekaterina Gilman."
+          - "Spring 2024, 2025, 2026."
 
       - company: University of Oulu — Faculty of ITEE
         position: Teaching Assistant — Network Analysis and Graph Machine Learning (M.Sc.)
@@ -93,7 +93,7 @@ cv:
         start_date: 2025
         end_date: 2025
         highlights:
-          - Instructor: Prof. Joydeep Chandra.
+          - "Instructor: Prof. Joydeep Chandra."
 
       - company: Sharif University of Technology — Electrical Engineering Dept.
         position: Teaching Assistant — Computer Vision (M.Sc.)
@@ -101,7 +101,7 @@ cv:
         start_date: 2019
         end_date: 2019
         highlights:
-          - Instructor: Dr. Hoda Mohammadzadeh.
+          - "Instructor: Dr. Hoda Mohammadzadeh."
 
       - company: Sharif University of Technology — International Campus
         position: Teaching Assistant — Computer Architecture (B.Sc.)
@@ -109,7 +109,7 @@ cv:
         start_date: 2018
         end_date: 2018
         highlights:
-          - Instructor: Dr. Hamed Farbeh.
+          - "Instructor: Dr. Hamed Farbeh."
 
       - company: Sharif University of Technology — Electrical Engineering Dept.
         position: Teaching Assistant — Advanced Computer Architecture (M.Sc.)
@@ -117,7 +117,7 @@ cv:
         start_date: 2018
         end_date: 2018
         highlights:
-          - Instructor: Dr. Mohammadreza Movaheddin.
+          - "Instructor: Dr. Mohammadreza Movaheddin."
 
       - company: Roshd1 Educational Complex
         position: Mathematics and Physics Teacher
