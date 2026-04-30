@@ -171,6 +171,7 @@ layout: default
               {% when 'Publications' %}{% assign section_icon = 'fa-solid fa-book text-info' %}
               {% when 'Projects' %}{% assign section_icon = 'fa-solid fa-diagram-project text-info' %}
               {% when 'Skills' %}{% assign section_icon = 'fa-solid fa-screwdriver-wrench text-success' %}
+              {% when 'Selected Skills' %}{% assign section_icon = 'fa-solid fa-screwdriver-wrench text-success' %}
             {% endcase %}
             <h3 class="card-title font-weight-medium">
               {% if section_icon != '' %}<i class="{{ section_icon }} me-2"></i>{% endif %}{{ section_title }}
@@ -188,7 +189,7 @@ layout: default
               {% elsif section_title == 'Publications' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
-              {% elsif section_title == 'Skills' %}
+              {% elsif section_title == 'Skills' or section_title == 'Selected Skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
               {% elsif section_title == 'Languages' %}

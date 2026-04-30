@@ -209,7 +209,7 @@ cv:
           - tool use
           - autonomous decision-making
 
-    Skills:
+    Selected Skills:
       - name: Deep Learning & GNNs
         icon: fa-solid fa-brain text-info me-2
         keywords:
