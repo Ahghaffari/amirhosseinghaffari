@@ -96,7 +96,7 @@ function initializeCookieConsent() {
               },
               {
                 title: 'More information',
-                description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://amirhossein-ghaffari.github.io/#contact">contact us</a>.'
+                description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://ahghaffari.github.io/amirhosseinghaffari/#contact">contact us</a>.'
               }
             ]
           }
