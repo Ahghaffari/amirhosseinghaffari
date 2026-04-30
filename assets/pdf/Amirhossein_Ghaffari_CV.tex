@@ -1,13 +1,85 @@
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass{resume}
+
+\makeatletter
+\let\@addressfour\relax
+
+\renewcommand{\address}[1]{%
+  \@ifundefined{@addresstwo}{\def\@addresstwo{#1}}{%
+  \@ifundefined{@addressthree}{\def\@addressthree{#1}}{%
+  \@ifundefined{@addressfour}{\def\@addressfour{#1}}{%
+     \def\@addressone{#1}}}}%
+}
+
+% Re-patch \document so it also prints the 4th address
+\renewcommand{\document}{%
+  \ori@document
+  \printname
+  \@ifundefined{@addressone}{}{\printaddress{\@addressone}}%
+  \@ifundefined{@addresstwo}{}{\printaddress{\@addresstwo}}%
+  \@ifundefined{@addressthree}{}{\printaddress{\@addressthree}}%
+  \@ifundefined{@addressfour}{}{\printaddress{\@addressfour}}%
+}
+\makeatother
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 \usepackage{hyperref}
 \usepackage{romannum}
 
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=ydnt,
+    maxbibnames=99,
+    doi=true,
+    url=true,
+    isbn=false,
+    defernumbers=true
+]{biblatex}
+
+\AtEveryBibitem{\clearfield{labelnumber}\clearfield{prefixnumber}}
+
+\addbibresource{publications.bib}
+
+% Plain section for publications, because normal rSection is already a list
+\newenvironment{rSectionPlain}[1]{
+  \sectionskip
+  \MakeUppercase{\bf #1}
+  \sectionlineskip
+  \hrule
+  \vspace{0.3em}
+}{
+  \par
+}
+
+\defbibenvironment{bibliography}
+  {\list
+     {\textbullet}
+     {\setlength{\labelwidth}{0.5em}%
+      \setlength{\labelsep}{0.5em}%
+      \setlength{\leftmargin}{1.5em}%
+      \setlength{\itemsep}{0.6\baselineskip}%
+      \setlength{\parsep}{0pt}%
+      \renewcommand*{\makelabel}[1]{##1\hss}}}
+  {\endlist}
+  {\item}
+
+  
+
+\usepackage{xstring}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \IfSubStr{\namepartfamily}{Ghaffari}{\mkbibbold{#1}}{#1}%
+}
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \IfSubStr{\namepartfamily}{Ghaffari}{\mkbibbold{#1}}{#1}%
+}
+
 \name{Amirhossein Ghaffari}
 
 \address{Email: \href{mailto:amirhossein.ghaffari@oulu.fi}{amirhossein.ghaffari@oulu.fi}}
 \address{LinkedIn: \href{https://www.linkedin.com/in/amirhosseinghaffari/}{linkedin.com/in/amirhosseinghaffari}}
+\address{Webpage: \href{https://ahghaffari.github.io/amirhosseinghaffari/}{ahghaffari.github.io/amirhosseinghaffari}}
+\address{Phone: [+358] 41 5823802}
 
 \begin{document}
 
@@ -146,6 +218,16 @@ Graph Neural Networks
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
+%   PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionPlain}{Publications}
+
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{rSectionPlain}
+%----------------------------------------------------------------------------------------
 %   CONFERENCES, WORKSHOPS, AND SUMMER SCHOOLS
 %----------------------------------------------------------------------------------------
 
@@ -206,6 +288,81 @@ Graph Neural Networks
     \item Ranked within the top 0.5\% among more than 31,000 participants in the Iranian Electrical Engineering Graduate University entrance exam.
 
     \item Ranked within the top 0.5\% among more than 220,000 participants in the Iranian Mathematics and Physics University entrance exam.
+
+\end{itemize}
+
+\end{rSection}
+
+\pagebreak
+%----------------------------------------------------------------------------------------
+%   SELECTED SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Skills}
+\vspace{+.1cm}
+
+\begin{itemize}
+
+    \item {\bf Deep Learning \& Graph Neural Networks:} PyTorch, PyTorch Geometric, Hugging Face.
+
+    \item {\bf Agentic AI \& Large Language Models:} LangGraph, LangChain, Google ADK, OpenAI / LLM provider APIs, RAG and GraphRAG pipelines.
+
+    \item {\bf Big Data \& Distributed Systems:} Apache Spark, PySpark.
+
+    \item {\bf Databases \& Knowledge Graphs:} PostgreSQL, Neo4j, Cypher, SPARQL, RDF.
+
+    \item {\bf MLOps \& Cloud Native:} Docker, Kubernetes, Prometheus, Grafana, Weights \& Biases, Git.
+
+    \item {\bf Programming Languages:} Python, C / C++, MATLAB.
+
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages}
+\vspace{+.1cm}
+
+\begin{itemize}
+
+    \item {\bf Persian:} Native
+
+    \item {\bf English:} Full professional proficiency
+
+    \item {\bf Finnish:} Beginner
+
+    \item {\bf Swedish:} Beginner
+
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   REFERENCES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{References}
+\vspace{+.1cm}
+
+\begin{itemize}
+
+    \item {\bf Adj. Prof. Ekaterina Gilman} \\
+    Adjunct Professor, Faculty of Information Technology and Electrical Engineering (ITEE), University of Oulu, Oulu, Finland \\
+    Email: \href{mailto:ekaterina.gilman@oulu.fi}{ekaterina.gilman@oulu.fi} \\
+    Web Page: \href{https://www.oulu.fi/en/researchers/ekaterina-gilman}{https://www.oulu.fi/en/researchers/ekaterina-gilman}
+
+    \item {\bf Adj. Prof. Susanna Pirttikangas} \\
+    Adjunct Professor, Faculty of Information Technology and Electrical Engineering (ITEE), University of Oulu, Oulu, Finland \\
+    Email: \href{mailto:susanna.pirttikangas@oulu.fi}{susanna.pirttikangas@oulu.fi} \\
+    Web Page: \href{https://www.oulu.fi/en/researchers/susanna-pirttikangas}{https://www.oulu.fi/en/researchers/susanna-pirttikangas}
+
+    \item {\bf Asst. Prof. Lauri Lov\'en} \\
+    Assistant Professor, Tenure Track; Head of Future Computing Group, University of Oulu, Oulu, Finland \\
+    Email: \href{mailto:lauri.loven@oulu.fi}{lauri.loven@oulu.fi} \\
+    Web Page: \href{https://www.oulu.fi/en/researchers/lauri-loven}{https://www.oulu.fi/en/researchers/lauri-loven}
 
 \end{itemize}
 
