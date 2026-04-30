@@ -162,18 +162,28 @@ cv:
         summary: Ranked within the top 0.5% among more than 220,000 participants.
 
     Conferences, Workshops and Summer Schools:
-      - bullet: "**ACM CIKM 2025**, Seoul, South Korea — student volunteer and first-author presenter of a paper. *(Fall 2025)*"
-      - bullet: "**IEEE ICNSC 2025**, Oulu, Finland — author of a paper. *(Fall 2025)*"
-      - bullet: "**NVIDIA Workshop**, University of Oulu — Fundamentals of Accelerated Computing with CUDA Python. *(Fall 2024)*"
-      - bullet: "**ACM IoT 2024**, Oulu, Finland — student volunteer with the organizing committee. *(Fall 2024)*"
-      - bullet: "**ACM KDD 2024**, Barcelona, Spain — full participation with a poster presentation. *(Fall 2024)*"
-      - bullet: "**12th UBISS Summer School**, University of Oulu — liaison student in the *Care-full! More-than-human Urban Futures* workshop. *(Summer 2024)*"
-      - bullet: "**6G Symposium**, Levi, Finland — full participation. *(Spring 2024)*"
-      - bullet: "**IEEE PerCom 2024**, Biarritz, France — full participation with a poster presentation. *(Spring 2024)*"
-      - bullet: "**11th UBISS Summer School**, University of Oulu — *Smart IoT Wireless Connectivity in 5G and Beyond* workshop. *(Summer 2023)*"
-      - bullet: "**IEC2-2019 Sharif**, Sharif University of Technology, Tehran — KNIME, Tableau, and Pandas workshops. *(Summer 2019)*"
-      - bullet: "**Deep Learning Summer School**, University of Tehran. *(Summer 2018)*"
-      - bullet: "**TensorFlow Workshop**, Sharif University of Technology, Tehran. *(Summer 2018)*"
+      - bullet: "<i class='fa-solid fa-microphone-lines text-primary me-2'></i> **ACM CIKM 2025**, Seoul, South Korea &mdash; student volunteer and first-author presenter of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
+      - bullet: "<i class='fa-solid fa-microphone-lines text-primary me-2'></i> **IEEE ICNSC 2025**, Oulu, Finland &mdash; author of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
+      - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **NVIDIA Workshop**, University of Oulu &mdash; Fundamentals of Accelerated Computing with CUDA Python. <span class='badge bg-secondary'>Fall 2024</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM IoT 2024**, Oulu, Finland &mdash; student volunteer with the organizing committee. <span class='badge bg-secondary'>Fall 2024</span>"
+      - bullet: "<i class='fa-solid fa-image-portrait text-warning me-2'></i> **ACM KDD 2024**, Barcelona, Spain &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Fall 2024</span>"
+      - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **12th UBISS Summer School**, University of Oulu &mdash; liaison student in the *Care-full! More-than-human Urban Futures* workshop. <span class='badge bg-secondary'>Summer 2024</span>"
+      - bullet: "<i class='fa-solid fa-satellite-dish text-success me-2'></i> **6G Symposium**, Levi, Finland &mdash; full participation. <span class='badge bg-secondary'>Spring 2024</span>"
+      - bullet: "<i class='fa-solid fa-image-portrait text-warning me-2'></i> **IEEE PerCom 2024**, Biarritz, France &mdash; full participation with a poster presentation. <span class='badge bg-secondary'>Spring 2024</span>"
+      - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **11th UBISS Summer School**, University of Oulu &mdash; *Smart IoT Wireless Connectivity in 5G and Beyond* workshop. <span class='badge bg-secondary'>Summer 2023</span>"
+      - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **IEC2-2019 Sharif**, Sharif University of Technology, Tehran &mdash; KNIME, Tableau, and Pandas workshops. <span class='badge bg-secondary'>Summer 2019</span>"
+      - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **Deep Learning Summer School**, University of Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
+      - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **TensorFlow Workshop**, Sharif University of Technology, Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
+
+    Languages:
+      - name: Persian
+        summary: Native
+      - name: English
+        summary: Full professional proficiency
+      - name: Swedish
+        summary: Beginner
+      - name: Finnish
+        summary: Beginner
 
     Academic Interests:
       - name: Urban Well-being
