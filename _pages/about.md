@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  
+subtitle: Doctoral Researcher, <a href="https://www.oulu.fi/">University of Oulu</a>, Finland.
 
 profile:
   align: right
