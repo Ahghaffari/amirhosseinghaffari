@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/amirhosseinghaffari/publications/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/amirhosseinghaffari/news/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae of Amirhossein Ghaffari. Click the button above to download the latest PDF.",
