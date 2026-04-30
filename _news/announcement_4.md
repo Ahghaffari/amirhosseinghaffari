@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending **ACM KDD 2024** in Barcelona with a poster presentation.
+Attending **ACM KDD 2024** in Barcelona, Spain, with a poster presentation.

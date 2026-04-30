@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received an **ACM CIKM Student Travel Grant** to attend CIKM 2025 in Seoul.
+Awarded an **ACM CIKM Student Travel Grant** to attend **ACM CIKM 2025** in Seoul, South Korea.

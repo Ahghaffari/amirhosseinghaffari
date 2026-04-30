@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Participating **IEEE ICNSC 2025** in Oulu, Finland.
+Attending **IEEE ICNSC 2025** in Oulu, Finland, as an author of a paper.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed the **NVIDIA Workshop** on *Fundamentals of Accelerated Computing with CUDA Python* at the University of Oulu.
+Attending the **NVIDIA Workshop** on *Fundamentals of Accelerated Computing with CUDA Python* at the **University of Oulu**.

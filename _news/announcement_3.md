@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the **Tauno Tönning Foundation** personal research grant.
+Awarded the **Tauno Tönning Foundation Personal Research Grant**.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received an **IEEE Student Travel Grant** to attend **IEEE PerCom 2024** in Biarritz, France.
+Awarded an **IEEE Student Travel Grant** to attend **IEEE PerCom 2024** in Biarritz, France.

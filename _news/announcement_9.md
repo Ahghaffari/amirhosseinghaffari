@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Liaison student and attenting the **12th UBISS Summer School** — *Care-full! More-than-human Urban Futures* workshop, University of Oulu.
+Attending the **12th UBISS Summer School** as a liaison student in the *Care-full! More-than-human Urban Futures* workshop at the **University of Oulu**.

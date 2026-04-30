@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending the **11th UBISS Summer School** — *Smart IoT Wireless Connectivity in 5G and Beyond* workshop, University of Oulu.
+Attending the **11th UBISS Summer School** in the *Smart IoT Wireless Connectivity in 5G and Beyond* workshop at the **University of Oulu**.
